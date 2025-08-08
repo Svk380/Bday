@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-3xl shadow-2xl text-center max-w-xs w-full transform transition-transform duration-500 hover:scale-105">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-6">
+            Scan Me!
+        </h1>
+        <p class="text-gray-600 mb-8 text-lg">
+            There's a special surprise waiting. 🎉
+        </p>
+        <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=birthday.html"
+            alt="QR Code"
+            class="w-full h-auto max-w-xs mx-auto rounded-xl border-4 border-purple-500 p-2 bg-gray-100"
+        >
+  </div>
+
+</body>
+</html>
+
